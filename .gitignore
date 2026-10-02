@@ -1,0 +1,25 @@
+# sbt / Scala
+target/
+project/target/
+project/project/
+.bsp/
+*.class
+*.log
+!data/raw/clickstream.log
+
+# IDEs
+.idea/
+.vscode/
+.metals/
+.bloop/
+*.iml
+
+# Spark runtime artefacts
+output/
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+
+# OS
+.DS_Store
