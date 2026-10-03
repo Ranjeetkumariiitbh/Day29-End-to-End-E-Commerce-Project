@@ -10,7 +10,7 @@ import java.nio.file.Files
 
 /**
  * End-to-end test on the bundled sample data. Expected numbers were derived by hand from
- * data/raw/*.csv (see README "Expected results").
+ * data/raw CSV files (see README "Expected results").
  */
 class PipelineIntegrationSpec extends AnyFunSuite with Matchers with SparkTestSession {
 
